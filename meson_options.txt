@@ -475,3 +475,9 @@ option(
   value : true,
   description : 'use msse2 flag for mingw x86. Default: true',
 )
+option(
+  'use-elf-tls',
+  type : 'boolean',
+  value : false,
+  description : 'Build support for initial-exec TLS model'
+)
